@@ -20,8 +20,8 @@ export default function Home() {
               { backgroundColor: 'transparent' }
         }>
           {number}</div>
-        <button onClick={() => setNumber(number + 1)}>Increment</button>
-        <button onClick={() => setNumber(number - 1)}>Decrement</button>
+        <button onClick={() => setNumber(number >> 1)}>Increment</button>
+        <button onClick={() => setNumber(number << 1)}>Decrement</button>
       </main>
     </>
   );
